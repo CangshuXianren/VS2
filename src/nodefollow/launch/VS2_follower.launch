@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find avoidance)/launch/avoidance2.launch" />
+    <node pkg="get_gps" name="trans_GPS" type="trans_GPS" />
+    <node pkg="gps2xy" name="self_GPS2XY" type="self_gps2xy" />
+    <node pkg="gps2xy" name="front_GPS2XY" type="front_gps2xy" />
+    <include file="$(find nlink_parser)/launch/linktrack.launch" />
+    <node pkg="nodefollow" name="pid2" type="pid2" />
+</launch>

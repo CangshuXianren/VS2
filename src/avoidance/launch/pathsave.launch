@@ -1,0 +1,9 @@
+<launch>
+
+  <param name="filename" type="string" value="path"/>
+  <param name="downsamplerate" type="int" value="1"/>
+
+  <node pkg="avoidance" type="pathSave" name="pathSave" output="screen" respawn="true">
+  </node>
+
+</launch>
