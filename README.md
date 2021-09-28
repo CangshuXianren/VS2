@@ -1,2 +1,6 @@
-# VS2
-This is VS2code
+# VS2  
+Current Version:VS2_1_ws  
+  
+Function:Frame on string control  
+  
+author:JYF and avoidance provided by JinZhe  
