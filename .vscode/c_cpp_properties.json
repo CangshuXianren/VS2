@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "${workspaceFolder}/src/nodefollow/include/**",
+                "${workspaceFolder}/src/serial/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/get_gps/include/**",
+                "${workspaceFolder}/src/gps2xy/include/**",
+                "${workspaceFolder}/devel/include",
+                //"${workspaceFolder}/src/nlink_parser/nlink_parser/**",
+                "${workspaceFolder}/src/nlink_parser",
+                "${workspaceFolder}/src/include/**",
+                "${workspaceFolder}/src/avoidance/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
